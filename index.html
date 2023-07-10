@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="app.css"
+		/>
+		<script
+			defer
+			src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"
+		></script>
+		<script
+			src="app.js"
+			defer
+		></script>
+		<title>canvas drawing</title>
+	</head>
+
+	<body>
+		<div class="tools">
+			<div class="buttons">
+				<button
+					type="button"
+					class="btn btn-primary plus"
+				>
+					<i class="fa-solid fa-plus"></i>
+				</button>
+				<button
+					type="button"
+					class="btn btn-secondary minus"
+				>
+					<i class="fa-solid fa-minus"></i>
+				</button>
+			</div>
+			<div class="colorpicker">
+				<input
+					type="color"
+					id="myColor"
+					value="#ff0000"
+				/>
+			</div>
+			<button class="x">
+				<i class="fas fa-times"></i>
+			</button>
+		</div>
+	</body>
+</html>
